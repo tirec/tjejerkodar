@@ -1,27 +1,55 @@
 <!doctype html>
-<html> 
+<html lang="en"> 
 	<head>
-		<title>Testsida</title>
 		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Testsida</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="testing.css">
 	</head>
 	<body>		
-		<h1>Hello, world!</h1>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
-		<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
-		<ul style="list-style-type:circle">
-  			<li>Tjejer</li>
-  			<li>Lajf</li>
-  			<li>Sol</li>
-		</ul>
-		<form>
-			Vad heter du?<br>
-  			<input type="text" name="name"><br>
- 			Favoritöl?<br>
-  			<input type="radio" name="beer" value="cheap" checked> Fatöl<br>
-  			<input type="radio" name="beer" value="fancy"> Finöl<br>
-  			<input type="radio" name="beer" value="other"> Annat
-		</form><br>
-		<img src="http://gifsec.com/wp-content/uploads/GIF/2015/03/Funny-Magic-Reaction-Gif.gif?gs=a">
+		<div class="hero">
+				<h1>Hello, world!</h1>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 column1">
+					<img src="http://a1.dspncdn.com/media/692x/02/52/a8/0252a82eafb6c28d54522f9610147359.jpg">
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+				</div>
+				<div class="col-md-4 column2">
+					<h2>Saker som är viktiga i livet:</h2>
+					<ul style="list-style-type:circle">
+  						<li>Tjejer</li>
+  						<li>Lajf</li>
+  						<li>Sol</li>
+					</ul>
+				</div>
+				<div class="col-md-4 column3">		
+					<form>
+						Vad heter du?<br>
+  						<input type="text" name="name"><br>
+ 						Favoritöl?<br>
+  						<input type="radio" name="beer" value="cheap" checked> Fatöl<br>
+  						<input type="radio" name="beer" value="fancy"> Finöl<br>
+  						<input type="radio" name="beer" value="other"> Annat<br>	
+  						<input type="submit" value="Skicka in">
+  					</form>
+  				</div>
+			</div>
+		</div>	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 column4">
+					<img src="http://a1.dspncdn.com/media/692x/a0/63/7f/a0637f71d0a3d2c3a8d8eed2d0f807c9.jpg">
+				</div>
+				<div class="col-md-4 column5"><p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p> 
+				</div>
+			</div>
+		</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
 
